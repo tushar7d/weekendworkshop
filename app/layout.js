@@ -47,7 +47,7 @@ let Header = () => {
 };
 let Footer = () => {
   return (
-    <footer className=" bg-background z-50  mt-12 border-t w-full flex justify-between items-center">
+    <footer className=" bg-background z-50  mt-[200px] border-t w-full max-w- flex justify-between items-center">
       <div className="p-12">
         <div className="text-4xl mb-2 font-medium">
           W
@@ -59,7 +59,7 @@ let Footer = () => {
       </div>
       
       <div className="pr-12"> 
-        <div className="text-xl">Subscribe to our newsletter</div>
+        <div className="text-lg">Subscribe to our newsletter</div>
         <div className="pt-4 text-foreground flex space-x-3 ">
           <Input type="email" placeholder="Enter Email" />
           <Button>Subscribe</Button>
