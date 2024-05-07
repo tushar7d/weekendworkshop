@@ -9,8 +9,8 @@ export default function Home() {
     <>
       <section className=" flex space-x-3 align-middle  items-center justify-center">
         <div className="z-10 flex h-full w-full flex-col items-center justify-center">
-        <img className="w-[25rem]" src="/cube.png" />
-          <h1 className="mx-6 mt-6 w-[300px] bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-5xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA] md:!w-full lg:!mt-20 lg:text-6xl xl:leading-snug">
+        <img className="w-[22rem]" src="/cube.png" />
+          <h1 className="mx-6 mt-6 w-[300px] bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-5xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA] md:!w-full  lg:text-6xl xl:leading-snug">
             {heading}
           </h1>
           <p className="font-space-grotesk mx-6 max-h-[112px] w-[315px] text-center text-xl text-[#666666] dark:text-[#888888] md:max-h-[96px] md:w-[660px] md:text-2xl">
