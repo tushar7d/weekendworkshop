@@ -22,7 +22,7 @@ let Header = () => {
   return (
     <nav className="z-50 bg-background sticky top-0   ">
       <div className="flex justify-between border-b p-4">
-        <div className="text-foreground text-2xl  font-medium">W</div>
+       <Link href="/"> <div className="text-foreground text-2xl  font-medium">W</div></Link>
         <ModeToggle />
       </div>
     </nav>
