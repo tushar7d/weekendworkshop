@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Event() {
   return (
     <div className=" min-h-[80vh] p-12">
@@ -5,7 +7,7 @@ export default function Event() {
       <h1 className="mb-6 text-4xl md:text-5xl font-semibold text-foreground">
         Design System Go!
       </h1>
-      <p className="mb-6 text-xl md:text-2xl">
+      <p className="mb-12 text-xl md:text-2xl">
         Unleash your creativity and level up your design game! Prepare for a
         detailed Design System Workshop that will take your design skills to new
         heights! Discover the secret sauce of successful design systems as we
@@ -21,22 +23,27 @@ export default function Event() {
         </li>
         <li className=" p-4 text-sm border rounded-xl dark:bg-zinc-900">
           <div className="mb-4 rounded-full size-12 bg-zinc-50 dark:bg-white/20"></div>
-          <div  className=" text-lg " >
+          <div className=" text-lg ">
             Crafting Components with precision, flexibility, and reusability
           </div>
         </li>
         <li className=" p-4 text-sm border rounded-xl dark:bg-zinc-900">
           <div className="mb-4 rounded-full size-12 bg-zinc-50 dark:bg-white/20"></div>
-          <div  className=" text-lg ">
+          <div className=" text-lg ">
             Documenting your design system like a pro for seamless collaboration
           </div>
         </li>
       </ul>
-      <p className="mt-6 text-xl md:text-2xl">
-        
-        Gain exclusive access to advanced techniques and industry secrets.
-        Register now and join us on this thrilling journey
-      </p>
+      <div className="md:flex justify-between items-center  border p-6 rounded-xl dark:bg-zinc-900 md:space-x-6">
+        <div className="text-lg md:text-xl mb-2">
+          Gain exclusive access to advanced techniques and industry secrets.
+          Register now and join us on this thrilling journey
+        </div>
+        <Button>Register</Button>
+      </div>
+      <h2 className="mt-12  text-2xl md:text-4xl font-semibold text-foreground">
+        Agenda
+      </h2>
     </div>
   );
 }
