@@ -1,9 +1,17 @@
 import { Button } from "@/components/ui/button";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export default function Event() {
   return (
     <div className=" min-h-[80vh] p-12">
-      <div className="mb-3 font-mono">Saturday · 25th May 2024</div>
+      <div className="mb-3 font-mono">
+        Virtual · 25th May 2024 · 2:00 PM IST
+      </div>
       <h1 className="mb-6 text-4xl md:text-5xl font-semibold text-foreground">
         Design System Go!
       </h1>
@@ -44,6 +52,49 @@ export default function Event() {
       <h2 className="mt-12  text-2xl md:text-4xl font-semibold text-foreground">
         Agenda
       </h2>
+
+      <Accordion type="single" collapsible>
+        <AccordionItem value="item-1">
+          <AccordionTrigger className="text-xl">Intro and agenda · 5 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger className="text-xl">Anatomy of a design system · 20 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-3">
+          <AccordionTrigger className="text-xl">Q&A · 5 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="text-xl">Design Tokens · 20 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="item-5">
+          <AccordionTrigger className="text-xl">Q&A · 5 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="item-6">
+          <AccordionTrigger className="text-xl">Break · 15 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+
+      </Accordion>
     </div>
   );
 }
