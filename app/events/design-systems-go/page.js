@@ -25,20 +25,20 @@ export default function Event() {
       </p>
       <ul className="grid grid-cols-1 gap-3 mb-4 md:grid-cols-3 ">
         <li className="p-4 text-sm border rounded-xl ">
-          <div className="flex items-center justify-center mb-4 rounded-full size-12 bg-zinc-50 dark:bg-white/20"><Box size={32}  strokeWidth={1.2} /></div>
+          <div className="flex items-center justify-center mb-4 border rounded-full size-12"><Box size={28}  strokeWidth={1} /></div>
           <div className="text-lg ">
             Mastering Tokens to create harmonious visual languages and brand
             identities
           </div>
         </li>
         <li className="p-4 text-sm border rounded-xl ">
-          <div className="flex items-center justify-center mb-4 rounded-full size-12 bg-zinc-50 dark:bg-white/20"><Boxes size={32}  strokeWidth={1.2} /></div>
+          <div className="flex items-center justify-center mb-4 border rounded-full size-12"><Boxes size={28}  strokeWidth={1} /></div>
           <div className="text-lg ">
             Crafting Components with precision, flexibility, and reusability
           </div>
         </li>
         <li className="p-4 text-sm border rounded-xl ">
-          <div className="flex items-center justify-center mb-4 rounded-full size-12 bg-zinc-50 dark:bg-white/20"><BookOpen size={32}  strokeWidth={1.2} /></div>
+          <div className="flex items-center justify-center mb-4 border rounded-full size-12"><BookOpen size={24}  strokeWidth={1} /></div>
           <div className="text-lg ">
             Documenting your design system like a pro for seamless collaboration
           </div>
@@ -52,7 +52,7 @@ export default function Event() {
         <Button>Register</Button>
       </div>
      
-      <div className="p-6 mt-4 border rounded-xl md:space-x-6">
+      <div className="p-6 pb-12 mt-4 border rounded-xl md:space-x-6">
       
       <Accordion type="single" collapsible className="">
       <h2 className="mb-6 text-2xl font-semibold md:text-2xl text-foreground">
@@ -70,29 +70,40 @@ export default function Event() {
             Quick round of intro followed by the agenda.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3">
-          <AccordionTrigger className="text-xl">Q&A · 5 mins</AccordionTrigger>
-          <AccordionContent>
-            Quick round of intro followed by the agenda.
-          </AccordionContent>
-        </AccordionItem>
+        
 
-        <AccordionItem value="item-4">
+        <AccordionItem value="item-3">
           <AccordionTrigger className="text-xl">Design Tokens · 20 mins</AccordionTrigger>
           <AccordionContent>
             Quick round of intro followed by the agenda.
           </AccordionContent>
         </AccordionItem>
 
+
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="text-xl">Q&A · 15 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+
+
         <AccordionItem value="item-5">
-          <AccordionTrigger className="text-xl">Q&A · 5 mins</AccordionTrigger>
+          <AccordionTrigger className="text-xl">Components · 25 mins</AccordionTrigger>
           <AccordionContent>
             Quick round of intro followed by the agenda.
           </AccordionContent>
         </AccordionItem>
 
         <AccordionItem value="item-6">
-          <AccordionTrigger className="text-xl">Break · 15 mins</AccordionTrigger>
+          <AccordionTrigger className="text-xl">Process & Documentation · 20 mins</AccordionTrigger>
+          <AccordionContent>
+            Quick round of intro followed by the agenda.
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem value="item-4">
+          <AccordionTrigger className="text-xl">Q&A · 15 mins</AccordionTrigger>
           <AccordionContent>
             Quick round of intro followed by the agenda.
           </AccordionContent>

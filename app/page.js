@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       </section>
       <section className="mx-3 mt-12 ">
-        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between  border-foreground  dark:border-0  border p-6 rounded-2xl">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between   border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
               Upcoming event
@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </section>
       <section className="mx-3 mt-6 ">
-        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between  dark:border-0  border p-6 rounded-2xl">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
               Planned event
@@ -53,7 +53,7 @@ export default function Home() {
               Learn how to effectively use variables for building prototypes
             </p>
           </div>
-          <Link href="/" className="mt-6 md:mt-0">
+          <Link href="/events/prototyping-with-variables" className="mt-6 md:mt-0">
             <Button className="">Learn More</Button>
           </Link>
         </div>
