@@ -14,15 +14,24 @@ const fontSans = FontSans({
 export const metadata = {
   title: "Weekend Workshops",
   description: "Learn something new every weekend",
+  openGraph: {
+    title: 'Weekend Workshops',
+    description: 'Learn something new every weekend',
+    url: 'https://weekendworkshop.in',
+    siteName: 'Weekend Workshop',
+    
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 
 
 let Header = () => {
   return (
-    <nav className="z-50 bg-background sticky top-0   ">
-      <div className="flex justify-between border-b p-4">
-       <Link href="/"> <div className="text-foreground text-2xl  font-medium">W</div></Link>
+    <nav className="sticky top-0 z-50 bg-background ">
+      <div className="flex justify-between p-4 border-b">
+       <Link href="/"> <div className="text-2xl font-medium text-foreground">W</div></Link>
         <ModeToggle />
       </div>
     </nav>
@@ -32,10 +41,10 @@ let Footer = () => {
   return (
     <footer className=" bg-background z-50  mt-[200px] border-t w-full max-w- flex justify-between items-center">
       <div className="p-12">
-        <div className="text-4xl mb-2 font-medium">
+        <div className="mb-2 text-4xl font-medium">
           W
         </div>
-      <div className="text-foreground/70 font-medium ">
+      <div className="font-medium text-foreground/70 ">
         Copyright 2024 · Weekend Workshop
       </div>
 
@@ -43,7 +52,7 @@ let Footer = () => {
       
       <div className="pr-12"> 
         <div className="text-lg">Subscribe to our newsletter</div>
-        <div className="pt-4 text-foreground flex space-x-3 ">
+        <div className="flex pt-4 space-x-3 text-foreground ">
           <Input type="email" placeholder="Enter Email" />
           <Button>Subscribe</Button>
         </div>

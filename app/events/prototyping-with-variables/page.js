@@ -1,12 +1,10 @@
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 
-import { Box,Boxes,BookOpen } from "lucide-react";
+
+export const metadata = {
+    title: 'Prototyping with variables | Weekend Worksop',
+    description: 'Learn how to use figma variables to create complex fully interactive protoypes',
+  }
 
 export default function Event() {
   return (
