@@ -18,8 +18,8 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="mx-3 mt-12 text-foreground ">
-        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between border dark:border-0  dark:bg-zinc-900 p-6 rounded-2xl">
+      <section className="mx-3 mt-12 ">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between  border-foreground  dark:border-0  border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
               Upcoming event
@@ -39,8 +39,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section className="mx-3 mt-6 text-foreground ">
-        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between border dark:border-0  dark:bg-zinc-900 p-6 rounded-2xl">
+      <section className="mx-3 mt-6 ">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between  dark:border-0  border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
               Planned event
