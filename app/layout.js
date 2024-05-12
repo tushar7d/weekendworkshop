@@ -39,8 +39,8 @@ let Header = () => {
 };
 let Footer = () => {
   return (
-    <footer className=" bg-background z-50  mt-[200px] border-t w-full max-w- flex justify-between items-center">
-      <div className="p-12">
+    <footer className=" bg-background pb-6 z-50  mt-[200px] border-t w-full md:flex   justify-between items-center">
+      <div className="p-3 md:p-12">
         <div className="mb-2 text-4xl font-medium">
           W
         </div>
@@ -50,7 +50,7 @@ let Footer = () => {
 
       </div>
       
-      <div className="pr-12"> 
+      <div className="p-3 md:pr-12"> 
         <div className="text-lg">Subscribe to our newsletter</div>
         <div className="flex pt-4 space-x-3 text-foreground ">
           <Input type="email" placeholder="Enter Email" />

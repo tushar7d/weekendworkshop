@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import Link from "next/link";
 export default function Home() {
   let heading = "Weekends for the win";
@@ -16,13 +17,23 @@ export default function Home() {
           <p className="font-space-grotesk mx-6 max-h-[112px] w-[315px] text-center text-xl text-[#666666] dark:text-[#888888] md:max-h-[96px] md:w-[660px] md:text-2xl">
             {description}
           </p>
+          <div className="p-3 md:pr-12">
+            <div className="flex pt-4 space-x-3 text-foreground ">
+              <Input
+                className="h-12 w-[300px]"
+                type="email"
+                placeholder="Subscribe to our newsletter"
+              />
+              <Button className="h-12">Subscribe</Button>
+            </div>
+          </div>
         </div>
       </section>
       <section className="mx-3 mt-12 ">
         <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between   border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
-              Upcoming event
+              Up Next
             </Badge>
             <div className="mt-3 mb-1 font-mono text-sm">
               Virtual · 25th May · 2:00 PM IST
@@ -43,7 +54,7 @@ export default function Home() {
         <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
-              Planned event
+              Planned
             </Badge>
             <div className="mt-3 mb-1 font-mono text-sm">
               Virtual · 1st June
@@ -59,6 +70,24 @@ export default function Home() {
           >
             <Button className="">Learn More</Button>
           </Link>
+        </div>
+      </section>
+
+      <section className="mx-3 mt-6 ">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
+          <div>
+            <Badge className={"mb-4 "} variant="outline">
+              Planned
+            </Badge>
+            <div className="mt-3 mb-1 font-mono text-sm">
+              Virtual · 8th June
+            </div>
+            <h2 className="mb-2 text-2xl">Figma Plugin 101</h2>
+            <p className="">
+              Learn how to build internal tools with open source Figma Plugins.
+              More details to come.
+            </p>
+          </div>
         </div>
       </section>
     </>
