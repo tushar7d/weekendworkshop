@@ -31,7 +31,7 @@ let Header = () => {
   return (
     <nav className="sticky top-0 z-50 bg-background ">
       <div className="flex justify-between p-4 border-b">
-       <Link href="/"> <div className="text-2xl font-medium text-foreground">W</div></Link>
+       <Link href="/"> <div className="text-2xl font-medium text-foreground"> <img src="/logo.svg" alt="Weekend Workshop logo" /></div></Link>
         <ModeToggle />
       </div>
     </nav>
@@ -42,7 +42,7 @@ let Footer = () => {
     <footer className=" bg-background pb-6 z-50  mt-[200px] border-t w-full md:flex   justify-between items-center">
       <div className="p-3 md:p-12">
         <div className="mb-2 text-4xl font-medium">
-          W
+          <img src="/logo.svg" alt="Weekend Workshop logo" />
         </div>
       <div className="font-medium text-foreground/70 ">
         Copyright 2024 · Weekend Workshop

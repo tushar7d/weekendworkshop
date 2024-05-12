@@ -26,7 +26,7 @@ export default function Home() {
                 type="email"
                 placeholder="Subscribe to our newsletter"
               />
-              <Button className="h-12">Subscribe</Button>
+              <Button variant="outline" className="h-12">Subscribe</Button>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
             </p>
           </div>
           <Link href="/events/design-systems-go" className="mt-6 md:mt-0">
-            <Button className="">Learn More</Button>
+            <Button variant="outline" className="">Learn More</Button>
           </Link>
         </div>
       </section>
@@ -70,7 +70,7 @@ export default function Home() {
             href="/events/prototyping-with-variables"
             className="mt-6 md:mt-0"
           >
-            <Button className="">Learn More</Button>
+            <Button variant="outline" className="">Learn More</Button>
           </Link>
         </div>
       </section>
