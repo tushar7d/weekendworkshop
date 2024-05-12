@@ -9,7 +9,9 @@ export default function Home() {
   return (
     <>
       <section className="flex items-center justify-center space-x-3 align-middle ">
+        
         <div className="z-10 flex flex-col items-center justify-center w-full h-full">
+       
           <img className="w-[22rem]" src="/cube.png" />
           <h1 className="mx-3 mt-6 w-[340px] bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-5xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA] md:!w-full  lg:text-6xl xl:leading-snug">
             {heading}

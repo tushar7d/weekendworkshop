@@ -60,7 +60,10 @@ export default function Event() {
           Gain exclusive access to advanced techniques and industry secrets.
           Register now and join us on this thrilling journey
         </div>
+        <a href="https://forms.gle/8YurFd7qKhUrKBXp7" target="_blank">
         <Button>Register</Button>
+        </a>
+        
       </div>
 
       <div className="p-6 pb-12 mt-4 border rounded-xl md:space-x-6">
