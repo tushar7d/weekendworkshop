@@ -1,6 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+
 import Link from "next/link";
 export default function Home() {
   let heading = "Weekends for the win";
@@ -12,7 +13,7 @@ export default function Home() {
         
         <div className="z-10 flex flex-col items-center justify-center w-full h-full">
        
-          <img className="w-[22rem]" src="/cube.png" />
+          <img className="w-[22rem]" alt="An image of a cube" src="/cube.png" />
           <h1 className="mx-3 mt-6 w-[340px] bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-5xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA] md:!w-full  lg:text-6xl xl:leading-snug">
             {heading}
           </h1>
