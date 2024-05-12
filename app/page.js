@@ -48,12 +48,15 @@ export default function Home() {
             <div className="mt-3 mb-1 font-mono text-sm">
               Virtual · 1st June
             </div>
-            <h2 className="mb-2 text-2xl">Protoyping with variables</h2>
+            <h2 className="mb-2 text-2xl">Prototyping with variables</h2>
             <p className="">
               Learn how to effectively use variables for building prototypes
             </p>
           </div>
-          <Link href="/events/prototyping-with-variables" className="mt-6 md:mt-0">
+          <Link
+            href="/events/prototyping-with-variables"
+            className="mt-6 md:mt-0"
+          >
             <Button className="">Learn More</Button>
           </Link>
         </div>
