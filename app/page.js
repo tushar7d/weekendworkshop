@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
             <h2 className="mb-2 text-2xl">Design System Go!</h2>
-            <p className="">
+            <p className=" opacity-60">
               Unlock secrets for consistent visual identity, reusable designs,
               and effective communication
             </p>
@@ -62,7 +62,7 @@ export default function Home() {
               Virtual · 1st June
             </div>
             <h2 className="mb-2 text-2xl">Prototyping with variables</h2>
-            <p className="">
+            <p className=" opacity-60">
               Learn how to effectively use variables for building prototypes
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Home() {
               Virtual · 8th June
             </div>
             <h2 className="mb-2 text-2xl">Figma Plugin 101</h2>
-            <p className="">
+            <p className="opacity-60">
               Learn how to build internal tools with open source Figma Plugins.
               More details to come.
             </p>
