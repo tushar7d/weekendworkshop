@@ -25,10 +25,6 @@ export default function Home() {
           <p className=" mx-6  text-center text-xl text-[#666666] dark:text-[#888888]  md:text-2xl">
             {description}
           </p>
-          
-            
-           
-          
         </div>
       </section>
       <section className="mx-3 mt-12 ">
@@ -68,14 +64,6 @@ export default function Home() {
               Learn how to effectively use variables for building prototypes
             </p>
           </div>
-          <Link
-            href="/events/prototyping-with-variables"
-            className="mt-6 md:mt-0"
-          >
-            <Button variant="outline" className="">
-              Learn More
-            </Button>
-          </Link>
         </div>
       </section>
 
