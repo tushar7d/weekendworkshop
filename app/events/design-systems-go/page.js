@@ -6,11 +6,13 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import photo from "@/public/tushar.jpeg";
+import Image from "next/image";
 import { Box, Boxes, BookOpen } from "lucide-react";
 
 export const metadata = {
   title: "Design System Go! | Weekend Worksop",
-  
+
   description:
     "Unleash your creativity and level up your design game! Prepare for a detailed Design System Workshop that will take your design skills to new heights",
 };
@@ -54,7 +56,6 @@ export default function Event() {
           </div>
         </li>
       </ul>
-     
 
       <div className="p-6 pb-12 mt-4 border rounded-xl md:space-x-6">
         <Accordion type="single" collapsible className="">
@@ -114,7 +115,7 @@ export default function Event() {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-4">
+          <AccordionItem value="item-7">
             <AccordionTrigger className="text-xl">
               Q&A · 15 mins
             </AccordionTrigger>
@@ -124,15 +125,36 @@ export default function Event() {
           </AccordionItem>
         </Accordion>
       </div>
+
+      <div className="flex items-start p-6 mt-4 border rounded-xl">
+      <Image
+          width={120}
+          height={120}
+          className=" rounded-xl"
+          src={photo}
+          alt="Photo of Tushar Debnath"
+        />
+        <div className="ml-3">
+          <div className="font-mono text-xm">Hosted by</div>
+          <div className="text-lg font-semibold ">Tushar Debnath</div>
+          <div className="">
+            Product designer & Design Technologist with over 10 years of
+            experience in building products and design systems{" "}
+          </div>
+         
+        </div>
+        
+       
+      </div>
+
       <div className="items-center justify-between p-6 mt-4 border md:flex rounded-xl md:space-x-6">
         <div className="mb-2 text-lg md:text-xl">
           Gain exclusive access to advanced techniques and industry secrets.
           Register now and join us on this thrilling journey
         </div>
         <a href="https://forms.gle/8YurFd7qKhUrKBXp7" target="_blank">
-        <Button>Register</Button>
+          <Button>Register</Button>
         </a>
-        
       </div>
     </div>
   );
