@@ -1,7 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-
+import Image from "next/image";
+import Logo from "./cube.png";
 import Link from "next/link";
 export default function Home() {
   let heading = "Weekends for the win";
@@ -10,24 +11,30 @@ export default function Home() {
   return (
     <>
       <section className="flex items-center justify-center space-x-3 align-middle ">
-        
-        <div className="z-10 flex flex-col items-center justify-center w-full h-full">
-       
-          <img className="w-[22rem]" alt="An image of a cube" src="/cube.png" />
+        <div className="flex flex-col items-center justify-center w-full h-full p-3 ">
+          <Image
+            width={352}
+            height={352}
+            priority
+            alt="An image of a cube"
+            src={Logo}
+          />
           <h1 className="mx-3 mt-6 w-[340px] bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-5xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA] md:!w-full  lg:text-6xl xl:leading-snug">
             {heading}
           </h1>
           <p className="font-space-grotesk mx-6 max-h-[112px] w-[315px] text-center text-xl text-[#666666] dark:text-[#888888] md:max-h-[96px] md:w-[660px] md:text-2xl">
             {description}
           </p>
-          <div className="p-3 md:pr-12">
-            <div className="flex pt-4 space-x-3 text-foreground ">
+          <div className="flex flex-col md:flex-row md:pr-12">
+            <div className="flex px-3 pt-4 space-x-3 text-foreground ">
               <Input
                 className="h-12 w-[300px]"
                 type="email"
                 placeholder="Subscribe to our newsletter"
               />
-              <Button variant="outline" className="h-12">Subscribe</Button>
+              <Button variant="outline" className="h-12">
+                Subscribe
+              </Button>
             </div>
           </div>
         </div>
@@ -49,7 +56,9 @@ export default function Home() {
             </p>
           </div>
           <Link href="/events/design-systems-go" className="mt-6 md:mt-0">
-            <Button variant="outline" className="">Learn More</Button>
+            <Button variant="outline" className="">
+              Learn More
+            </Button>
           </Link>
         </div>
       </section>
@@ -71,7 +80,9 @@ export default function Home() {
             href="/events/prototyping-with-variables"
             className="mt-6 md:mt-0"
           >
-            <Button variant="outline" className="">Learn More</Button>
+            <Button variant="outline" className="">
+              Learn More
+            </Button>
           </Link>
         </div>
       </section>
