@@ -25,8 +25,7 @@ export default function Event() {
         Design System Go!
       </h1>
       <p className="mb-12 text-xl md:text-2xl">
-        ! Discover the secret sauce of successful design systems as we
-        dive deep into:
+        Discover the secret sauce of successful design systems
       </p>
       <ul className="grid grid-cols-1 gap-3 mb-4 md:grid-cols-3 ">
         <li className="p-4 text-sm border rounded-xl ">
@@ -55,16 +54,7 @@ export default function Event() {
           </div>
         </li>
       </ul>
-      <div className="items-center justify-between p-6 border md:flex rounded-xl md:space-x-6">
-        <div className="mb-2 text-lg md:text-xl">
-          Gain exclusive access to advanced techniques and industry secrets.
-          Register now and join us on this thrilling journey
-        </div>
-        <a href="https://forms.gle/8YurFd7qKhUrKBXp7" target="_blank">
-        <Button>Register</Button>
-        </a>
-        
-      </div>
+     
 
       <div className="p-6 pb-12 mt-4 border rounded-xl md:space-x-6">
         <Accordion type="single" collapsible className="">
@@ -133,6 +123,16 @@ export default function Event() {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
+      </div>
+      <div className="items-center justify-between p-6 mt-4 border md:flex rounded-xl md:space-x-6">
+        <div className="mb-2 text-lg md:text-xl">
+          Gain exclusive access to advanced techniques and industry secrets.
+          Register now and join us on this thrilling journey
+        </div>
+        <a href="https://forms.gle/8YurFd7qKhUrKBXp7" target="_blank">
+        <Button>Register</Button>
+        </a>
+        
       </div>
     </div>
   );

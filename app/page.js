@@ -19,24 +19,16 @@ export default function Home() {
             alt="An image of a cube"
             src={Logo}
           />
-          <h1 className="mx-3 mt-6 w-[340px] bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-5xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA] md:!w-full  lg:text-6xl xl:leading-snug">
+          <h1 className=" mt-6  bg-gradient-to-b from-black/80 to-black bg-clip-text pb-4  text-center text-4xl font-extrabold leading-tight text-transparent dark:from-white dark:to-[#AAAAAA]  lg:text-6xl xl:leading-snug">
             {heading}
           </h1>
-          <p className="font-space-grotesk mx-6 max-h-[112px] w-[315px] text-center text-xl text-[#666666] dark:text-[#888888] md:max-h-[96px] md:w-[660px] md:text-2xl">
+          <p className=" mx-6  text-center text-xl text-[#666666] dark:text-[#888888]  md:text-2xl">
             {description}
           </p>
-          <div className="flex flex-col md:flex-row md:pr-12">
-            <div className="flex px-3 pt-4 space-x-3 text-foreground ">
-              <Input
-                className="h-12 w-[300px]"
-                type="email"
-                placeholder="Subscribe to our newsletter"
-              />
-              <Button variant="outline" className="h-12">
-                Subscribe
-              </Button>
-            </div>
-          </div>
+          
+            
+           
+          
         </div>
       </section>
       <section className="mx-3 mt-12 ">
