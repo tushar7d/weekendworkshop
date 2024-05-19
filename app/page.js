@@ -25,10 +25,6 @@ export default function Home() {
           <p className=" mx-6  text-center text-xl text-[#666666] dark:text-[#888888]  md:text-2xl">
             {description}
           </p>
-          
-            
-           
-          
         </div>
       </section>
       <section className="mx-3 mt-12 ">
