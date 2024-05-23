@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@100mslive/react-sdk": "^0.10.9",
+    "@100mslive/react-sdk": "^0.10.10",
     "@100mslive/roomkit-react": "^0.3.10",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
