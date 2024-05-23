@@ -10,11 +10,21 @@ import photo from "@/public/tushar.jpeg";
 import Image from "next/image";
 import { Box, Boxes, BookOpen } from "lucide-react";
 
+
+
 export const metadata = {
   title: "Design System Go! | Weekend Worksop",
 
   description:
     "Unleash your creativity and level up your design game! Prepare for a detailed Design System Workshop that will take your design skills to new heights",
+    openGraph: {
+      title: 'Design System Go! | Weekend Worksop',
+      description: 'Unleash your creativity and level up your design game! Prepare for a detailed Design System Workshop that will take your design skills to new heights',
+      url: 'https://weekendworkshop.in/events/design-systems-go',
+      siteName: 'Weekend Workshop',
+      locale: 'en_US',
+      type: 'website',
+    },
 };
 
 export default function Event() {
@@ -64,7 +74,7 @@ export default function Event() {
           </h2>
           <AccordionItem value="item-1">
             <AccordionTrigger className="text-xl">
-              Intro and agenda · 5 mins
+              Intro and agenda
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
@@ -72,7 +82,7 @@ export default function Event() {
           </AccordionItem>
           <AccordionItem value="item-2">
             <AccordionTrigger className="text-xl">
-              Anatomy of a design system · 20 mins
+              Anatomy of a design system
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
@@ -81,7 +91,7 @@ export default function Event() {
 
           <AccordionItem value="item-3">
             <AccordionTrigger className="text-xl">
-              Design Tokens · 20 mins
+              Design Tokens
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
@@ -90,7 +100,7 @@ export default function Event() {
 
           <AccordionItem value="item-4">
             <AccordionTrigger className="text-xl">
-              Q&A · 15 mins
+              Q&A
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
@@ -99,7 +109,7 @@ export default function Event() {
 
           <AccordionItem value="item-5">
             <AccordionTrigger className="text-xl">
-              Components · 25 mins
+              Components
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
@@ -108,7 +118,7 @@ export default function Event() {
 
           <AccordionItem value="item-6">
             <AccordionTrigger className="text-xl">
-              Process & Documentation · 20 mins
+              Process & Documentation
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
@@ -117,7 +127,7 @@ export default function Event() {
 
           <AccordionItem value="item-7">
             <AccordionTrigger className="text-xl">
-              Q&A · 15 mins
+              Q&A
             </AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
