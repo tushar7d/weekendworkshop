@@ -30,15 +30,18 @@ export const metadata = {
 export default function Event() {
   return (
     <div className=" min-h-[80vh] p-3 md:p-12">
-        <div className="p-3 my-12 border flex justify-between rounded-xl md:space-x-6">
-          <div>
+      <div className="p-3 my-12 border flex justify-between rounded-xl md:space-x-6">
+        <div>
           <h1 className="text-xl">Join the workshop</h1>
-          <p className=" opacity-60"> The link will activate at 1:45PM IST tomorrow</p>
-          </div>
-          <Link href={'/events/design-systems-go'}>
-          <Button className="opacity-50" >Go live</Button></Link>
-          
+          <p className=" opacity-60">
+            {" "}
+            The link will activate at 1:45PM IST tomorrow
+          </p>
         </div>
+        <Link href={"/events/design-systems-go"}>
+          <Button className="opacity-50">Go live</Button>
+        </Link>
+      </div>
       <div className="mb-3 font-mono">
         Virtual · 25th May 2024 · 2:00 PM IST
       </div>
