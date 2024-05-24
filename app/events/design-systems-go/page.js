@@ -39,7 +39,7 @@ export default function Event() {
           </p>
         </div>
         <Link href={"/events/design-systems-go"}>
-          <Button className="opacity-50">Go live</Button>
+          <Button className="opacity-50">Join</Button>
         </Link>
       </div>
       <div className="mb-3 font-mono">
