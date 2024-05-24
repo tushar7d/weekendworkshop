@@ -9,27 +9,36 @@ import {
 import photo from "@/public/tushar.jpeg";
 import Image from "next/image";
 import { Box, Boxes, BookOpen } from "lucide-react";
-
-
+import Link from "next/link";
 
 export const metadata = {
   title: "Design System Go! | Weekend Worksop",
 
   description:
     "Unleash your creativity and level up your design game! Prepare for a detailed Design System Workshop that will take your design skills to new heights",
-    openGraph: {
-      title: 'Design System Go! | Weekend Worksop',
-      description: 'Unleash your creativity and level up your design game! Prepare for a detailed Design System Workshop that will take your design skills to new heights',
-      url: 'https://weekendworkshop.in/events/design-systems-go',
-      siteName: 'Weekend Workshop',
-      locale: 'en_US',
-      type: 'website',
-    },
+  openGraph: {
+    title: "Design System Go! | Weekend Worksop",
+    description:
+      "Unleash your creativity and level up your design game! Prepare for a detailed Design System Workshop that will take your design skills to new heights",
+    url: "https://weekendworkshop.in/events/design-systems-go",
+    siteName: "Weekend Workshop",
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function Event() {
   return (
     <div className=" min-h-[80vh] p-3 md:p-12">
+        <div className="p-3 my-12 border flex justify-between rounded-xl md:space-x-6">
+          <div>
+          <h1 className="text-xl">Join the workshop</h1>
+          <p className=" opacity-60"> The link will activate at 1:45PM IST tomorrow</p>
+          </div>
+          <Link href={'/events/design-systems-go'}>
+          <Button className="opacity-50" >Go live</Button></Link>
+          
+        </div>
       <div className="mb-3 font-mono">
         Virtual · 25th May 2024 · 2:00 PM IST
       </div>
@@ -85,7 +94,8 @@ export default function Event() {
               Anatomy of a design system
             </AccordionTrigger>
             <AccordionContent>
-              Quick round of intro followed by the agenda.
+              We will talk about the fundamental building blocks of a design
+              system and how they interact with each other
             </AccordionContent>
           </AccordionItem>
 
@@ -94,25 +104,16 @@ export default function Event() {
               Design Tokens
             </AccordionTrigger>
             <AccordionContent>
-              Quick round of intro followed by the agenda.
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem value="item-4">
-            <AccordionTrigger className="text-xl">
-              Q&A
-            </AccordionTrigger>
-            <AccordionContent>
-              Quick round of intro followed by the agenda.
+              A deep dive into what Tokens are why we need them and how to
+              effectively use them in our daily workflow
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-5">
-            <AccordionTrigger className="text-xl">
-              Components
-            </AccordionTrigger>
+            <AccordionTrigger className="text-xl">Components</AccordionTrigger>
             <AccordionContent>
-              Quick round of intro followed by the agenda.
+              A look into the craft of building components and how to set up
+              effective systems for rapid design and devlopment
             </AccordionContent>
           </AccordionItem>
 
@@ -121,14 +122,13 @@ export default function Event() {
               Process & Documentation
             </AccordionTrigger>
             <AccordionContent>
-              Quick round of intro followed by the agenda.
+              A deep dive into processes and documentation practices required
+              for running an effective design system
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-7">
-            <AccordionTrigger className="text-xl">
-              Q&A
-            </AccordionTrigger>
+            <AccordionTrigger className="text-xl">Q&A</AccordionTrigger>
             <AccordionContent>
               Quick round of intro followed by the agenda.
             </AccordionContent>
@@ -137,7 +137,7 @@ export default function Event() {
       </div>
 
       <div className="flex items-start p-6 mt-4 border rounded-xl">
-      <Image
+        <Image
           width={120}
           height={120}
           className=" rounded-xl"
@@ -151,10 +151,7 @@ export default function Event() {
             Product designer & Design Technologist with over 10 years of
             experience in building products and design systems{" "}
           </div>
-         
         </div>
-        
-       
       </div>
 
       <div className="items-center justify-between p-6 mt-4 border md:flex rounded-xl md:space-x-6">
