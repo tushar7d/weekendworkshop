@@ -59,7 +59,7 @@ export default function Home() {
               Planned
             </Badge>
             <div className="mt-3 mb-1 font-mono text-sm">
-              Virtual · 8th June
+              Virtual · 22nd June
             </div>
             <h2 className="mb-2 text-2xl">Prototyping with variables</h2>
             <p className=" opacity-60">
@@ -84,7 +84,7 @@ export default function Home() {
               Planned
             </Badge>
             <div className="mt-3 mb-1 font-mono text-sm">
-              Virtual · 22nd June
+              Virtual · 6th July
             </div>
             <h2 className="mb-2 text-2xl">Figma Plugin 101</h2>
             <p className="opacity-60">
