@@ -27,30 +27,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="mx-3 mt-6 ">
-        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
-          <div>
-            <Badge className={"mb-4 "} variant="outline">
-              Up Next
-            </Badge>
-            <div className="mt-3 mb-1 font-mono text-sm">
-              Virtual · 16th June
-            </div>
-            <h2 className="mb-2 text-2xl">Design Systems AMA</h2>
-            <p className=" opacity-60">
-             Ask me anything about design systems
-            </p>
-          </div>
-          <Link
-            href="/live"
-            className="mt-6 md:mt-0"
-          >
-            <Button variant="outline" className="">
-             Join
-            </Button>
-          </Link>
-        </div>
-      </section>
+      
     
       <section className="mx-3 mt-6 ">
         <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
@@ -59,7 +36,7 @@ export default function Home() {
               Planned
             </Badge>
             <div className="mt-3 mb-1 font-mono text-sm">
-              Virtual · 22nd June
+              Virtual · 7th July
             </div>
             <h2 className="mb-2 text-2xl">Prototyping with variables</h2>
             <p className=" opacity-60">
@@ -84,7 +61,7 @@ export default function Home() {
               Planned
             </Badge>
             <div className="mt-3 mb-1 font-mono text-sm">
-              Virtual · 6th July
+              Virtual · 14th July
             </div>
             <h2 className="mb-2 text-2xl">Figma Plugin 101</h2>
             <p className="opacity-60">
@@ -94,7 +71,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
       <section className="mx-3 mt-12 ">
+     
         <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between   border p-6 rounded-2xl">
           <div>
             <Badge className={"mb-4 "} variant="outline">
@@ -115,6 +94,24 @@ export default function Home() {
               Learn More
             </Button>
           </Link>
+        </div>
+      </section>
+
+      <section className="mx-3 mt-6 ">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
+          <div>
+            <Badge className={"mb-4 "} variant="outline">
+              Past
+            </Badge>
+            <div className="mt-3 mb-1 font-mono text-sm">
+              Virtual · 16th June
+            </div>
+            <h2 className="mb-2 text-2xl">Design Systems AMA</h2>
+            <p className=" opacity-60">
+             Ask me anything about design systems
+            </p>
+          </div>
+          
         </div>
       </section>
     </>
