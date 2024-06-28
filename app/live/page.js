@@ -7,7 +7,7 @@ export default function Event() {
 
 
     <div className="flex flex-col items-center justify-center w-screen  min-h-[400px]">
-
+     
     <div className="text-center ">
         <Calendar className="mx-auto mb-6 size-20" />
     
@@ -15,7 +15,7 @@ export default function Event() {
     </div>
 
     <div>Event starts on <span className="text-green-500">Sunday 28 June, 8:00PM IST </span></div>
-
+    <img src="/pr.png" className="p-3 max-w-[512px] mt-6 border w-fit rounded-xl" />
     <div className="p-6 mt-4 font-medium text-center border rounded-xl">
       <div className="text-xl ">As we can only review limited number of portfolios please book your slot</div> 
       <Link
@@ -28,6 +28,8 @@ export default function Event() {
             </Button>
           </Link>
       </div>
+    
+
 
 </div>
    
