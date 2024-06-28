@@ -17,7 +17,7 @@ export default async function Home() {
       method: "POST",
       body: JSON.stringify({
         query: `query Events {
-  events {
+  events( orderBy:rank_ASC)  {
     description
     formLink
     type
@@ -35,7 +35,7 @@ export default async function Home() {
   ).then((res) => res.json());
   let events = data.data.events
  
-  console.log(events)
+  
   return (
 
     <>
