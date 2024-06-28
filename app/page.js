@@ -13,6 +13,7 @@ export default async function Home() {
   const data = await fetch(
     "https://ap-south-1.cdn.hygraph.com/content/clxymi2ch01cc07w4j39fgpyb/master",
     {
+      cache:"reload",
       method: "POST",
       body: JSON.stringify({
         query: `query Events {
@@ -23,6 +24,7 @@ export default async function Home() {
     name
     state
     date
+    current
   }
 }`,
       }),
@@ -73,7 +75,7 @@ export default async function Home() {
               {e.description}
               </p>
             </div> 
-            <div className="flex items-end space-x-3 md:space-y-3 md:flex-col">
+            {e.current?<div className="flex items-end space-x-3 md:space-y-3 md:flex-col">
             <Link
               href="/live"
               className="mt-6 md:mt-0 w-[100px]"
@@ -92,7 +94,8 @@ export default async function Home() {
               </Button>
             </Link>:null}
             
-            </div>
+            </div>:null}
+            
             
           </div>
         </section>
