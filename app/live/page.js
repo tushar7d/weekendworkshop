@@ -1,4 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { Calendar } from "lucide-react";
+import Link from "next/link";
 
 export default function Event() {
   return (
@@ -13,6 +15,19 @@ export default function Event() {
     </div>
 
     <div>Event starts on <span className="text-green-500">Sunday 28 June, 8:00PM IST </span></div>
+
+    <div className="p-6 mt-4 font-medium text-center border rounded-xl">
+      <div className="text-xl ">As we can only review limited number of portfolios please book your slot</div> 
+      <Link
+            href="https://forms.gle/MoZ8VTimErmy2KbE7"
+            target="_blank"
+            className="mt-6 md:mt-0 w-[100px]"
+          >
+            <Button  className="w-full mt-6">
+              Book Slot 
+            </Button>
+          </Link>
+      </div>
 
 </div>
    

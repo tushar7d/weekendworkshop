@@ -27,6 +27,42 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <section className="mx-3 mt-6 ">
+        <div className=" mx-auto  max-w-[60rem] flex flex-col md:flex-row items-start md:items-end justify-start md:justify-between    border p-6 rounded-2xl">
+          <div>
+            <Badge className={"mb-4 "} variant="outline">
+              Planned
+            </Badge>
+            <div className="mt-3 mb-1 font-mono text-sm">
+              Virtual · 29th June
+            </div>
+            <h2 className="mb-2 text-2xl">Portfolio Review</h2>
+            <p className=" opacity-60">
+              Showcase your portfolio and get expert inputs
+            </p>
+          </div> 
+          <div className="flex items-end space-x-3 md:space-y-3 md:flex-col">
+          <Link
+            href="/live"
+            className="mt-6 md:mt-0 w-[100px]"
+          >
+            <Button variant="outline" className="w-full ">
+              Join
+            </Button>
+          </Link>
+          <Link
+            href="https://forms.gle/MoZ8VTimErmy2KbE7"
+            target="_blank"
+            className="mt-6 md:mt-0 w-[100px]"
+          >
+            <Button variant="outline" className="w-full">
+              Book Slot 
+            </Button>
+          </Link>
+          </div>
+          
+        </div>
+      </section>
       
     
       <section className="mx-3 mt-6 ">
