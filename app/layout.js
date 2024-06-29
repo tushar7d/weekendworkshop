@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { Analytics } from "@vercel/analytics/react"
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -86,6 +87,7 @@ let Footer = () => {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      
       <body>
         <ThemeProvider
           attribute="class"
@@ -104,6 +106,7 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         </ThemeProvider>
+        <Analytics/>
       </body>
     </html>
   );
