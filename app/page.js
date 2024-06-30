@@ -13,7 +13,7 @@ export default async function Home() {
   const data = await fetch(
     "https://ap-south-1.cdn.hygraph.com/content/clxymi2ch01cc07w4j39fgpyb/master",
     {
-      cache:"reload",
+      cache:"no-cache",
       method: "POST",
       body: JSON.stringify({
         query: `query Events {
