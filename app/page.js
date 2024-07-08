@@ -85,12 +85,12 @@ export default async function Home() {
               </Button>
             </Link>
             {e.formLink?<Link
-              href="https://forms.gle/MoZ8VTimErmy2KbE7"
+              href={e.formLink}
               target="_blank"
               className="mt-6 md:mt-0 w-[100px]"
             >
               <Button variant="outline" className="w-full">
-                Book Slot 
+                Register 
               </Button>
             </Link>:null}
             
