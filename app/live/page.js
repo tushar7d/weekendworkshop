@@ -16,7 +16,7 @@ export default function Event() {
     <div className="w-full p-3 mx-2 text-center">Event starts on <span className="text-green-500 ">Saturday 26th October, 7:00PM IST </span></div>
     <img src="/framer.jpg" className="max-w-[500px] w-full mx-3 mt-4 border rounded-xl" />
     <div className="p-6 mx-3 mt-4 font-medium text-center border rounded-xl w-fit ">
-      <div className="text-xl ">As we can only review limited number of portfolios please book your slot</div> 
+      <div className="text-xl ">please book your slot</div> 
       <Link
             href="https://forms.gle/jkqufrhk62tUEA2Z7"
             target="_blank"
